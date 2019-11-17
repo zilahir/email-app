@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
+import { Grommet } from 'grommet'
 
 import configureStore from './store/configureStore'
 import App from './App'
@@ -10,7 +11,9 @@ const store = configureStore()
 
 ReactDOM.render(
 	<Provider store={store}>
-		<App />
+		<Grommet>
+			<App />
+		</Grommet>
 	</Provider>, document.getElementById('root'),
 )
 
