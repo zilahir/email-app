@@ -4,7 +4,7 @@ import React from 'react'
 const Main = () => (
 	<div>
 		<p>
-				Main
+			Main
 		</p>
 	</div>
 )
